@@ -19,7 +19,7 @@ const Certificates = () => {
       image: 'https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=800',
       description: 'Advanced course on MediaSoup for building scalable real-time video communication applications.',
       skills: ['MediaSoup', 'WebRTC', 'Real-time Communication', 'Video Streaming'],
-      credentialUrl: '/public/images/MediaSoup.pdf'
+      credentialUrl: '/images/MediaSoup.pdf'
     },
     {
       title: 'Cloud Computing and Distributed Systems',
@@ -28,7 +28,7 @@ const Certificates = () => {
       image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800',
       description: 'Comprehensive understanding of cloud computing principles, distributed systems architecture, and scalability.',
       skills: ['Cloud Computing', 'Distributed Systems', 'Scalability', 'System Design'],
-      credentialUrl: '/public/images/Cloud Computing and Distributed Systems.pdf'
+      credentialUrl: '/images/Cloud Computing and Distributed Systems.pdf'
     },
     {
       title: 'Software Testing for DevOps',
@@ -37,7 +37,7 @@ const Certificates = () => {
       image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800',
       description: 'Advanced software testing methodologies and practices specifically designed for DevOps environments.',
       skills: ['Software Testing', 'DevOps', 'Automation Testing', 'CI/CD'],
-      credentialUrl: '/public/images/DevOps.pdf'
+      credentialUrl: '/images/DevOps.pdf'
     },
     {
       title: 'Development and Advanced Engineering',
@@ -46,7 +46,7 @@ const Certificates = () => {
       image: 'https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=800',
       description: 'Advanced engineering practices and development methodologies for enterprise-level applications.',
       skills: ['Software Engineering', 'Advanced Development', 'Enterprise Solutions', 'Best Practices'],
-      credentialUrl: '/public/images/Accenture.pdf'
+      credentialUrl: '/images/Accenture.pdf'
     }
   ];
 
