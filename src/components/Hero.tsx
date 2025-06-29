@@ -36,12 +36,12 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-wrap gap-3">
-              <button className="flex items-center space-x-2 bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg text-sm">
+              {/* <button className="flex items-center space-x-2 bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg text-sm">
                 <a href='/images/RAKESH_KUMAR_RESUME.pdf'>
                   <Download size={16} />
                   <span>Download Resume</span>
                 </a>
-              </button>
+              </button> */}
 
               <div className="flex space-x-2">
                 <a
