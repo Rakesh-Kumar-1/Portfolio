@@ -64,7 +64,7 @@ const Hero = () => {
             <div className="relative z-10 bg-white rounded-xl shadow-xl p-6 transform rotate-2 hover:rotate-0 transition-transform duration-300">
               <div className="aspect-square bg-gradient-to-br from-blue-100 to-teal-100 rounded-lg flex items-center justify-center relative overflow-hidden">
                 <img
-                  src="/public/images/IMG_20250628_221725.jpg"
+                  src="/images/IMG_20250628_221725.jpg"
                   alt="Rakesh Kumar"
                   className="w-full h-full object-cover rounded-lg"
                 />
