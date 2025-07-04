@@ -10,7 +10,7 @@ const Projects = () => {
       technologies: ['PHP', 'MySQL', 'HTML', 'CSS'],
       githubUrl: 'https://github.com/Rakesh-Kumar-1/Job-Board',
       liveUrl: '#',
-      date: 'Nov 2023',
+      date: ' Nov 2023',
       status: 'Completed',
       icon: Database
     },
@@ -19,7 +19,7 @@ const Projects = () => {
       description: 'A responsive weather application that provides real-time weather information and forecasts using weather API integration with beautiful UI.',
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React.js', 'Weather API', 'CSS', 'JavaScript'],
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Rakesh-Kumar-1/Weather-App',
       liveUrl: '#',
       date: 'Oct 2023',
       status: 'Completed',
@@ -32,7 +32,7 @@ const Projects = () => {
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
       githubUrl: 'https://github.com/Rakesh-Kumar-1/Gmail',
       liveUrl: '#',
-      date: 'Sep 2023',
+      date: 'March 2024',
       status: 'Completed',
       icon: Code
     },
@@ -43,7 +43,7 @@ const Projects = () => {
       technologies: ['React.js', 'MediaSoup', 'WebRTC', 'Socket.io'],
       githubUrl: 'https://github.com/Rakesh-Kumar-1/Vedio-Confress-MediaSoup',
       liveUrl: '#',
-      date: 'Aug 2023',
+      date: 'Aug 2024',
       status: 'Completed',
       icon: Globe
     },
@@ -55,7 +55,7 @@ const Projects = () => {
       githubUrl: '#',
 //    githubUrl: 'https://github.com/Rakesh-Kumar-1/FinAdvise',
       liveUrl: '#',
-      date: 'Dec 2023',
+      date: 'June 2025',
       status: 'Working',
       icon: Database
     }
