@@ -52,10 +52,11 @@ const Projects = () => {
       description: 'A comprehensive financial advisory platform with multiple user roles (Admin, User, Advisor, Manager). Features chatbot integration, payment processing, email notifications, and automatic meeting link generation.',
       image: 'https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Payment Gateway', 'Chatbot API'],
-      githubUrl: 'https://github.com/Rakesh-Kumar-1/FinAdvise',
+      githubUrl: '#',
+//    githubUrl: 'https://github.com/Rakesh-Kumar-1/FinAdvise',
       liveUrl: '#',
       date: 'Dec 2023',
-      status: 'Completed',
+      status: 'Working',
       icon: Database
     }
   ];
