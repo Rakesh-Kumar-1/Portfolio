@@ -20,7 +20,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React.js', 'Weather API', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/Rakesh-Kumar-1/Weather-App',
-      liveUrl: '#',
+      liveUrl: 'https://weather-app-livid-omega.vercel.app/',
       date: 'Oct 2023',
       status: 'Completed',
       icon: Globe
@@ -53,7 +53,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/3483098/pexels-photo-3483098.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Payment Gateway', 'Chatbot API'],
       githubUrl: '#',
-//    githubUrl: 'https://github.com/Rakesh-Kumar-1/FinAdvise',
+      //    githubUrl: 'https://github.com/Rakesh-Kumar-1/FinAdvise',
       liveUrl: '#',
       date: 'June 2025',
       status: 'Working',
@@ -142,14 +142,34 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="flex space-x-2 pt-3 border-t border-gray-100">
+                {/* <div className="flex space-x-2 pt-3 border-t border-gray-100">
                   <a
                     href={project.githubUrl}
                     className="flex-1 flex items-center justify-center space-x-1 py-2 px-3 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors text-xs font-medium"
                   >
                     <Code size={12} />
-                    <span>Code</span>
+                    {project.liveUrl === '#'?<span>Code</span>:<span>Link</span>}
+                    
                   </a>
+                </div>  */}
+                <div className="flex space-x-2 pt-3 border-t border-gray-100">
+                  {project.liveUrl === '#' ?
+                    <a
+                      href={project.githubUrl}
+                      className="flex-1 flex items-center justify-center space-x-1 py-2 px-3 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors text-xs font-medium"
+                    >
+                      <Code size={12} />
+                      <span>Code</span>
+                    </a>
+                    :
+                    <a
+                      href={project.liveUrl}
+                      className="flex-1 flex items-center justify-center space-x-1 py-2 px-3 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors text-xs font-medium"
+                    >
+                      <Code size={12} />
+                      <span>Link</span>
+                    </a>
+                  }
                 </div>
               </div>
             </div>
