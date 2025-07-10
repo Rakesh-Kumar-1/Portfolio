@@ -10,7 +10,7 @@ const Certificates = () => {
       image: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800',
       description: 'Comprehensive certification covering MongoDB, Express.js, React, and Node.js for full-stack web development.',
       skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JavaScript'],
-      credentialUrl: '#'
+      credentialUrl: '/images/1752173034238-certificate.png'
     },
     {
       title: 'Mastering MediaSoup',
